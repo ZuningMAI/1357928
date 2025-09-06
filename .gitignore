@@ -1,0 +1,58 @@
+# 编译产物
+*.o
+*.obj
+*.exe
+*.dll
+*.lib
+*.pdb
+*.ilk
+*.exp
+*.so
+*.dylib
+*.a
+
+# 构建和输出目录
+build/
+bulid/  # 拼写错误的build目录
+_build/
+_output/
+temp/
+Debug/
+Release/
+x64/
+x86/
+
+# IDE相关文件
+.vscode/
+*.vscode/
+
+# 临时和日志文件
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
+*.swo
+
+# C++特定
+*.gch
+*.pch
+
+# Python相关（项目中包含少量Python代码）
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pya
+*$py.class
+*.so  # 也可能是Python扩展
+*.egg-info/
+dist/
+*.egg
+
+# 其他编辑器和系统文件
+*.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
