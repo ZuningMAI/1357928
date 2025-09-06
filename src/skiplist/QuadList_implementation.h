@@ -1,0 +1,15 @@
+#ifndef QUADLIST_IMPLEMENTATION_H
+#define QUADLIST_IMPLEMENTATION_H
+
+/******************************************************************************************
+ * 将Quadlist各方法的实现部分，简洁地引入Quadlist.h
+ * 效果等同于将这些实现直接汇入Quadlist.h
+ * 在export尚未被编译器支持前，如此可将定义与实现分离，以便课程讲解
+ ******************************************************************************************/
+
+#include "Quadlist_initialize.h"
+
+#include "Quadlist_insert.h"
+#include "Quadlist_remove.h"
+
+#endif

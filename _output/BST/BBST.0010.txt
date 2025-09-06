@@ -1,0 +1,256 @@
+3BSTIiE[6290944]*10:
+   28   *                              ┌─   28  
+   26   *                        ┌─   26  
+   25   *                  ┌─   25  
+   23   *            ┌─   23  
+   22   *      ┌─   22  
+   21   *──   21  
+   16   *      │    ┌─   16  
+   14   *      └─   14  
+   13   *            │    ┌─   13  
+   10   *            └─   10  
+
+size = 10, height = 9, #zag = 7
+3BSTIiE[6290944]*10:
+   28   *──   28  
+   26   *      └─   26  
+   25   *            └─   25  
+   23   *                  └─   23  
+   22   *                        └─   22  
+   21   *                              └─   21  
+   16   *                                    └─   16  
+   14   *                                          └─   14  
+   13   *                                                └─   13  
+   10   *                                                      └─   10  
+
+3BSTIiE[6290944]*10:
+   27   *──   27  
+   23   *      └─   23  
+   22   *            │          ┌─   22  
+   18   *            │    ┌─   18  
+   11   *            │    │    └─   11  
+    8   *            │    │          └─    8  
+    7   *            └─    7  
+    5   *                  └─    5  
+    3   *                        │    ┌─    3  
+    0   *                        └─    0  
+
+size = 10, height = 9, #zig = 9
+3BSTIiE[6290944]*10:
+   27   *                                                      ┌─   27  
+   23   *                                                ┌─   23  
+   22   *                                          ┌─   22  
+   18   *                                    ┌─   18  
+   11   *                              ┌─   11  
+    8   *                        ┌─    8  
+    7   *                  ┌─    7  
+    5   *            ┌─    5  
+    3   *      ┌─    3  
+    0   *──    0  
+
+3BSTIiE[6290944]*10:
+   29   *      ┌─   29  
+   28   *      │    └─   28  
+   27   *      │          └─   27  
+   24   *──   24  
+   22   *      │    ┌─   22  
+   19   *      │    │    └─   19  
+   16   *      └─   16  
+   15   *            │    ┌─   15  
+    9   *            └─    9  
+    3   *                  └─    3  
+
+size = 6, height = 5, #zig = 4
+size = 3, height = 2, #zag = 0
+3BSTIiE[6290944]*10:
+   29   *      ┌─   29  
+   28   *      │    └─   28  
+   27   *      │          └─   27  
+   24   *──   24  
+   22   *      │                            ┌─   22  
+   19   *      │                      ┌─   19  
+   16   *      │                ┌─   16  
+   15   *      │          ┌─   15  
+    9   *      │    ┌─    9  
+    3   *      └─    3  
+
+3BSTIiE[6290944]*10:
+   29   *      ┌─   29  
+   25   *──   25  
+   21   *      │                ┌─   21  
+   17   *      │          ┌─   17  
+   16   *      │    ┌─   16  
+   12   *      └─   12  
+    9   *            │          ┌─    9  
+    5   *            │    ┌─    5  
+    4   *            └─    4  
+    1   *                  └─    1  
+
+size = 8, height = 7, #zag = 5
+size = 1, height = 0, #zig = 0
+3BSTIiE[6290944]*10:
+   29   *      ┌─   29  
+   25   *──   25  
+   21   *      └─   21  
+   17   *            └─   17  
+   16   *                  └─   16  
+   12   *                        └─   12  
+    9   *                              └─    9  
+    5   *                                    └─    5  
+    4   *                                          └─    4  
+    1   *                                                └─    1  
+
+Removing    15 ... not exists
+Searching for     7 ... not found
+Removing    16 ... not exists
+Removing    17 ... not exists
+Searching for     6 ... not found
+Searching for    15 ... not found
+Searching for     6 ... not found
+Inserting    12 ... Done with   12
+3BSTIiE[6290944]*1:
+   12   *──   12  
+
+Removing     1 ... not exists
+Searching for    29 ... not found
+Inserting    29 ... Done with   29
+3BSTIiE[6290944]*2:
+   29   *      ┌─   29  
+   12   *──   12  
+
+Inserting    29 ... Done with   29
+3BSTIiE[6290944]*2:
+   29   *      ┌─   29  
+   12   *──   12  
+
+Searching for     9 ... not found
+Searching for     0 ... not found
+Removing    19 ... not exists
+Removing    14 ... not exists
+Removing    16 ... not exists
+Searching for    12 ... Found with   12
+Inserting     7 ... Done with    7
+3BSTIiE[6290944]*3:
+   29   *      ┌─   29  
+   12   *──   12  
+    7   *      └─    7  
+
+Inserting     5 ... Done with    5
+3BSTIiE[6290944]*4:
+   29   *      ┌─   29  
+   12   *──   12  
+    7   *      └─    7  
+    5   *            └─    5  
+
+Inserting    23 ... Done with   23
+3BSTIiE[6290944]*5:
+   29   *      ┌─   29  
+   23   *      │    └─   23  
+   12   *──   12  
+    7   *      └─    7  
+    5   *            └─    5  
+
+Searching for     9 ... not found
+Removing     3 ... not exists
+Inserting     9 ... Done with    9
+3BSTIiE[6290944]*6:
+   29   *      ┌─   29  
+   23   *      │    └─   23  
+   12   *──   12  
+    9   *      │    ┌─    9  
+    7   *      └─    7  
+    5   *            └─    5  
+
+Searching for    28 ... not found
+Inserting    17 ... Done with   17
+3BSTIiE[6290944]*7:
+   29   *      ┌─   29  
+   23   *      │    └─   23  
+   17   *      │          └─   17  
+   12   *──   12  
+    9   *      │    ┌─    9  
+    7   *      └─    7  
+    5   *            └─    5  
+
+Searching for    11 ... not found
+Searching for    16 ... not found
+Removing    18 ... not exists
+Searching for    24 ... not found
+Inserting     7 ... Done with    7
+3BSTIiE[6290944]*7:
+   29   *      ┌─   29  
+   23   *      │    └─   23  
+   17   *      │          └─   17  
+   12   *──   12  
+    9   *      │    ┌─    9  
+    7   *      └─    7  
+    5   *            └─    5  
+
+Searching for    13 ... not found
+Removing    13 ... not exists
+Inserting    26 ... Done with   26
+3BSTIiE[6290944]*8:
+   29   *      ┌─   29  
+   26   *      │    │    ┌─   26  
+   23   *      │    └─   23  
+   17   *      │          └─   17  
+   12   *──   12  
+    9   *      │    ┌─    9  
+    7   *      └─    7  
+    5   *            └─    5  
+
+Searching for     5 ... Found with    5
+Inserting     4 ... Done with    4
+3BSTIiE[6290944]*9:
+   29   *      ┌─   29  
+   26   *      │    │    ┌─   26  
+   23   *      │    └─   23  
+   17   *      │          └─   17  
+   12   *──   12  
+    9   *      │    ┌─    9  
+    7   *      └─    7  
+    5   *            └─    5  
+    4   *                  └─    4  
+
+Inserting    12 ... Done with   12
+3BSTIiE[6290944]*9:
+   29   *      ┌─   29  
+   26   *      │    │    ┌─   26  
+   23   *      │    └─   23  
+   17   *      │          └─   17  
+   12   *──   12  
+    9   *      │    ┌─    9  
+    7   *      └─    7  
+    5   *            └─    5  
+    4   *                  └─    4  
+
+Searching for    20 ... not found
+Inserting    22 ... Done with   22
+3BSTIiE[6290944]*10:
+   29   *      ┌─   29  
+   26   *      │    │    ┌─   26  
+   23   *      │    └─   23  
+   22   *      │          │    ┌─   22  
+   17   *      │          └─   17  
+   12   *──   12  
+    9   *      │    ┌─    9  
+    7   *      └─    7  
+    5   *            └─    5  
+    4   *                  └─    4  
+
+Removing    14 ... not exists
+Removing    15 ... not exists
+Removing    19 ... not exists
+Removing     7 ... Done
+3BSTIiE[6290944]*9:
+   29   *      ┌─   29  
+   26   *      │    │    ┌─   26  
+   23   *      │    └─   23  
+   22   *      │          │    ┌─   22  
+   17   *      │          └─   17  
+   12   *──   12  
+    9   *      └─    9  
+    5   *            └─    5  
+    4   *                  └─    4  
+
+Removing    25 ... nPress any key to continue . . . 

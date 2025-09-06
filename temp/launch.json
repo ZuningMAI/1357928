@@ -1,0 +1,860 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "sum Debug",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/bulid/Debug.Sum/Sum.exe",
+            "args": [
+                "1000"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build sum Debug",
+            "internalConsoleOptions": "neverOpen"
+        },
+        {
+            "name": "sum Release",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/bulid/Release.Sum/Sum.exe",
+            "args": [
+                "1000"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build sum Release",
+            "internalConsoleOptions": "neverOpen"
+        },
+        {
+            "name": "factorial Debug",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/bulid/Debug.Factorial/Factorial.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build factorial Debug",
+            "internalConsoleOptions": "neverOpen"
+        },
+        {
+            "name": "factorial Release",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/bulid/Release.Factorial/Factorial.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build factorial Release",
+            "internalConsoleOptions": "neverOpen"
+        },
+        {
+            "name": "lcs Debug",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/bulid/Debug.Lcs/Lcs.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build lcs Debug",
+            "internalConsoleOptions": "neverOpen"
+        },
+        {
+            "name": "lcs Release",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/bulid/Release.Lcs/Lcs.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build lcs Release",
+            "internalConsoleOptions": "neverOpen"
+        },
+        {
+            "name": "shiftK Debug",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/bulid/Debug.ShiftK/ShiftK.exe",
+            "args": [
+                "24",
+                "9",
+                "105",
+                "18"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build shiftK Debug",
+            "internalConsoleOptions": "neverOpen"
+        },
+        {
+            "name": "shiftK Release",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/bulid/Release.ShiftK/ShiftK.exe",
+            "args": [
+                "24",
+                "9",
+                "105",
+                "18"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build shiftK Release",
+            "internalConsoleOptions": "neverOpen"
+        },
+        {
+            "name": "power Debug",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/bulid/Debug.power/power.exe",
+            "args": [
+                "3",
+                "39"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build power Debug",
+            "internalConsoleOptions": "neverOpen"
+        },
+        {
+            "name": "power Release",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/bulid/Release.power/power.exe",
+            "args": [
+                "3",
+                "39"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build power Release",
+            "internalConsoleOptions": "neverOpen"
+        },
+        {
+            "name": "bubblesort Debug",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/bulid/Debug.bubblesort/bubblesort.exe",
+            "args": [
+                "10"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build bubblesort Debug",
+            "internalConsoleOptions": "neverOpen"
+        },
+        {
+            "name": "bubblesort Release",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/bulid/Release.bubblesort/bubblesort.exe",
+            "args": [
+                "10"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build bubblesort Release",
+            "internalConsoleOptions": "neverOpen"
+        },
+        {
+            "name": "fibonacci Debug",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/bulid/Debug.fibonacci/fibonacci.exe",
+            "args": [
+                "43"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build fibonacci Debug",
+            "internalConsoleOptions": "neverOpen"
+        },
+        {
+            "name": "fibonacci Release",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/bulid/Release.fibonacci/fibonacci.exe",
+            "args": [
+                "43"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build fibonacci Release",
+            "internalConsoleOptions": "neverOpen"
+        },
+        {
+            "name": "vector Debug",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/bulid/Debug.vector/vector.exe",
+            "args": [
+                "30"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build vector Debug",
+            "internalConsoleOptions": "neverOpen"
+        },
+        {
+            "name": "vector Release",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/bulid/Release.vector/vector.exe",
+            "args": [
+                "357"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build vector Release",
+            "internalConsoleOptions": "neverOpen"
+        },
+        {
+            "name": "vector msvc",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}\\build\\vector.exe",
+            "args": [
+                "10"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "console": "externalTerminal",
+            "preLaunchTask": "build vector MSVC"
+        },
+        {
+            "name": "selection Debug",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/bulid/Debug.selection/selection.exe",
+            "args": [
+                "147"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build selection Debug",
+            "internalConsoleOptions": "neverOpen"
+        },
+        {
+            "name": "selection Release",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/bulid/Release.selection/selection.exe",
+            "args": [
+                "147"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build selection Release",
+            "internalConsoleOptions": "neverOpen"
+        },
+        {
+            "name": "list Debug",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/bulid/Debug.list/list.exe",
+            "args": [
+                "10"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build list Debug",
+            "internalConsoleOptions": "neverOpen"
+        },
+        {
+            "name": "list Release",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/bulid/Release.list/list.exe",
+            "args": [
+                "357"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build list Release",
+            "internalConsoleOptions": "neverOpen"
+        },
+        {
+            "name": "stack_vector Debug",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/bulid/Debug.stack_vector/stack_vector.exe",
+            "args": [
+                "17"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build stack_vector Debug",
+            "internalConsoleOptions": "neverOpen"
+        },
+        {
+            "name": "stack_vector Release",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/bulid/Release.stack_vector/stack_vector.exe",
+            "args": [
+                "34"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build stack_vector Release",
+            "internalConsoleOptions": "neverOpen"
+        },
+        {
+            "name": "stack_list Debug",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/bulid/Debug.stack_list/stack_list.exe",
+            "args": [
+                "17"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build stack_list Debug",
+            "internalConsoleOptions": "neverOpen"
+        },
+        {
+            "name": "stack_list Release",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/bulid/Release.stack_list/stack_list.exe",
+            "args": [
+                "34"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build stack_list Release",
+            "internalConsoleOptions": "neverOpen"
+        },
+        {
+            "name": "conversion Debug",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/bulid/Debug.conversion/conversion.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build conversion Debug",
+            "internalConsoleOptions": "neverOpen"
+        },
+        {
+            "name": "nest_stack Debug",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/bulid/Debug.nest_stack/nest_stack.exe",
+            "args": [
+                "Rank divide ( const char exp[], Rank lo, Rank hi ) { int crc = 1; while ( ( 0 < crc ) && ( ++lo < hi ) ) if ( exp[lo] == '(' ) crc ++;else if ( exp[lo] == ')' ) crc --;return lo;}"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build nest_stack Debug",
+            "internalConsoleOptions": "neverOpen"
+        },
+        {
+            "name": "nest_recursive Debug",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/bulid/Debug.nest_recursive/nest_recursive.exe",
+            "args": [
+                "Rank divide ( const char exp[], Rank lo, Rank hi ) { int crc = 1; while ( ( 0 < crc ) && ( ++lo < hi ) ) if ( exp[lo] == '(' ) crc ++;else if ( exp[lo] == ')' ) crc --;return lo;}"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build nest_recursive Debug",
+            "internalConsoleOptions": "neverOpen"
+        },
+        {
+            "name": "rpn Debug",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/bulid/Debug.rpn/rpn.exe",
+            "args": [
+                "6+5*4^3!",
+                "1+2*(3+4/(5-6))",
+                "(0!+1!)^(2!/(3/4!)-5)-(6*7-(8+9))",
+                "(12)3+!4*+5",
+                "7890  1234567890 . 123456789 0123456789 0123456789  +  2-  1234567890 . 123456789 0123456789 0123456789  ",
+                "   1  +12 3  4    . 56 78  9   *3   "
+            ],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build rpn Debug",
+            "internalConsoleOptions": "neverOpen"
+        },
+        {
+            "name": "queue Debug",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/bulid/Debug.queue/queue.exe",
+            "args": [
+                "17"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build queue Debug",
+            "internalConsoleOptions": "neverOpen"
+        },
+        {
+            "name": "queen_brute_force_1 Debug",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/bulid/Debug.queen_brute_force_1/queen_brute_force_1.exe",
+            "args": [
+                "-step"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build queen_brute_force_1 Debug",
+            "internalConsoleOptions": "neverOpen"
+        },
+        {
+            "name": "queen_brute_force_2 Debug",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/bulid/Debug.queen_brute_force_2/queen_brute_force_2.exe",
+            "args": [
+                "-step"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build queen_brute_force_2 Debug",
+            "internalConsoleOptions": "neverOpen"
+        },
+        {
+            "name": "queen_recursive Debug",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/bulid/Debug.queen_recursive/queen_recursive.exe",
+            "args": [
+                "-cont",
+                "7"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build queen_recursive Debug",
+            "internalConsoleOptions": "neverOpen"
+        },
+        {
+            "name": "queen_stack Debug",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/bulid/Debug.queen_stack/queen_stack.exe",
+            "args": [
+                "-step",
+                "8"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build queen_stack Debug",
+            "internalConsoleOptions": "neverOpen"
+        },
+        {
+            "name": "laby Debug",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/bulid/Debug.laby/laby.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build laby Debug",
+            "internalConsoleOptions": "neverOpen"
+        },
+        {
+            "name": "binTree Debug",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/bulid/Debug.binTree/binTree.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "gdb",
+            "miDebuggerPath": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build binTree Debug",
+            "internalConsoleOptions": "neverOpen"
+        }
+    ]
+}

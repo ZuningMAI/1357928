@@ -1,0 +1,141 @@
+8 vertices
+Inserting vertex S ...done
+class GraphMatrix<char,int>[11532468]*(1, 0):
+    1     0| S[U] 
+    0     0|    0 | dTime fTime Parent Weight
+-----------+------+----------------------------
+ S[U]     0|     .|    -1    -1      ^    INF
+
+Inserting vertex A ...done
+class GraphMatrix<char,int>[11532468]*(2, 0):
+    2     0| S[U]  A[U] 
+    0     0|    0     0 | dTime fTime Parent Weight
+-----------+------------+----------------------------
+ S[U]     0|     .     .|    -1    -1      ^    INF
+ A[U]     0|     .     .|    -1    -1      ^    INF
+
+Inserting vertex B ...done
+class GraphMatrix<char,int>[11532468]*(3, 0):
+    3     0| S[U]  A[U]  B[U] 
+    0     0|    0     0     0 | dTime fTime Parent Weight
+-----------+------------------+----------------------------
+ S[U]     0|     .     .     .|    -1    -1      ^    INF
+ A[U]     0|     .     .     .|    -1    -1      ^    INF
+ B[U]     0|     .     .     .|    -1    -1      ^    INF
+
+Inserting vertex C ...done
+class GraphMatrix<char,int>[11532468]*(4, 0):
+    4     0| S[U]  A[U]  B[U]  C[U] 
+    0     0|    0     0     0     0 | dTime fTime Parent Weight
+-----------+------------------------+----------------------------
+ S[U]     0|     .     .     .     .|    -1    -1      ^    INF
+ A[U]     0|     .     .     .     .|    -1    -1      ^    INF
+ B[U]     0|     .     .     .     .|    -1    -1      ^    INF
+ C[U]     0|     .     .     .     .|    -1    -1      ^    INF
+
+Inserting vertex D ...done
+class GraphMatrix<char,int>[11532468]*(5, 0):
+    5     0| S[U]  A[U]  B[U]  C[U]  D[U] 
+    0     0|    0     0     0     0     0 | dTime fTime Parent Weight
+-----------+------------------------------+----------------------------
+ S[U]     0|     .     .     .     .     .|    -1    -1      ^    INF
+ A[U]     0|     .     .     .     .     .|    -1    -1      ^    INF
+ B[U]     0|     .     .     .     .     .|    -1    -1      ^    INF
+ C[U]     0|     .     .     .     .     .|    -1    -1      ^    INF
+ D[U]     0|     .     .     .     .     .|    -1    -1      ^    INF
+
+Inserting vertex E ...done
+class GraphMatrix<char,int>[11532468]*(6, 0):
+    6     0| S[U]  A[U]  B[U]  C[U]  D[U]  E[U] 
+    0     0|    0     0     0     0     0     0 | dTime fTime Parent Weight
+-----------+------------------------------------+----------------------------
+ S[U]     0|     .     .     .     .     .     .|    -1    -1      ^    INF
+ A[U]     0|     .     .     .     .     .     .|    -1    -1      ^    INF
+ B[U]     0|     .     .     .     .     .     .|    -1    -1      ^    INF
+ C[U]     0|     .     .     .     .     .     .|    -1    -1      ^    INF
+ D[U]     0|     .     .     .     .     .     .|    -1    -1      ^    INF
+ E[U]     0|     .     .     .     .     .     .|    -1    -1      ^    INF
+
+Inserting vertex F ...done
+class GraphMatrix<char,int>[11532468]*(7, 0):
+    7     0| S[U]  A[U]  B[U]  C[U]  D[U]  E[U]  F[U] 
+    0     0|    0     0     0     0     0     0     0 | dTime fTime Parent Weight
+-----------+------------------------------------------+----------------------------
+ S[U]     0|     .     .     .     .     .     .     .|    -1    -1      ^    INF
+ A[U]     0|     .     .     .     .     .     .     .|    -1    -1      ^    INF
+ B[U]     0|     .     .     .     .     .     .     .|    -1    -1      ^    INF
+ C[U]     0|     .     .     .     .     .     .     .|    -1    -1      ^    INF
+ D[U]     0|     .     .     .     .     .     .     .|    -1    -1      ^    INF
+ E[U]     0|     .     .     .     .     .     .     .|    -1    -1      ^    INF
+ F[U]     0|     .     .     .     .     .     .     .|    -1    -1      ^    INF
+
+Inserting vertex G ...done
+class GraphMatrix<char,int>[11532468]*(8, 0):
+    8     0| S[U]  A[U]  B[U]  C[U]  D[U]  E[U]  F[U]  G[U] 
+    0     0|    0     0     0     0     0     0     0     0 | dTime fTime Parent Weight
+-----------+------------------------------------------------+----------------------------
+ S[U]     0|     .     .     .     .     .     .     .     .|    -1    -1      ^    INF
+ A[U]     0|     .     .     .     .     .     .     .     .|    -1    -1      ^    INF
+ B[U]     0|     .     .     .     .     .     .     .     .|    -1    -1      ^    INF
+ C[U]     0|     .     .     .     .     .     .     .     .|    -1    -1      ^    INF
+ D[U]     0|     .     .     .     .     .     .     .     .|    -1    -1      ^    INF
+ E[U]     0|     .     .     .     .     .     .     .     .|    -1    -1      ^    INF
+ F[U]     0|     .     .     .     .     .     .     .     .|    -1    -1      ^    INF
+ G[U]     0|     .     .     .     .     .     .     .     .|    -1    -1      ^    INF
+
+Inserting edge (0, 1) =     1 ...done
+Inserting edge (0, 3) =     1 ...done
+Inserting edge (0, 4) =     1 ...done
+Inserting edge (1, 3) =     1 ...done
+Inserting edge (1, 5) =     1 ...done
+Inserting edge (3, 2) =     1 ...done
+Inserting edge (4, 2) =     1 ...done
+Inserting edge (5, 6) =     1 ...done
+Inserting edge (5, 7) =     1 ...done
+Inserting edge (7, 2) =     1 ...done
+Inserting edge (7, 6) =     1 ...done
+
+class GraphMatrix<char,int>[11532468]*(8, 11):
+    8    11| S[U]  A[U]  B[U]  C[U]  D[U]  E[U]  F[U]  G[U] 
+   11    11|    0     1     3     2     1     1     2     1 | dTime fTime Parent Weight
+-----------+------------------------------------------------+----------------------------
+ S[U]     3|     .    1U     .    1U    1U     .     .     .|    -1    -1      ^    INF
+ A[U]     2|     .     .     .    1U     .    1U     .     .|    -1    -1      ^    INF
+ B[U]     0|     .     .     .     .     .     .     .     .|    -1    -1      ^    INF
+ C[U]     1|     .     .    1U     .     .     .     .     .|    -1    -1      ^    INF
+ D[U]     1|     .     .    1U     .     .     .     .     .|    -1    -1      ^    INF
+ E[U]     2|     .     .     .     .     .     .    1U    1U|    -1    -1      ^    INF
+ F[U]     0|     .     .     .     .     .     .     .     .|    -1    -1      ^    INF
+ G[U]     2|     .     .    1U     .     .     .    1U     .|    -1    -1      ^    INF
+
+=== BFS
+class GraphMatrix<char,int>[11532468]*(8, 11):
+    8    11| S[V]  A[V]  B[V]  C[V]  D[V]  E[V]  F[V]  G[V] 
+   11    11|    0     1     3     2     1     1     2     1 | dTime fTime Parent Weight
+-----------+------------------------------------------------+----------------------------
+ S[V]     3|     .    1T     .    1T    1T     .     .     .|     0     0      ^    INF
+ A[V]     2|     .     .     .    1C     .    1T     .     .|     1     2      S    INF
+ B[V]     0|     .     .     .     .     .     .     .     .|     2     0      D    INF
+ C[V]     1|     .     .    1C     .     .     .     .     .|     1     1      S    INF
+ D[V]     1|     .     .    1T     .     .     .     .     .|     1     0      S    INF
+ E[V]     2|     .     .     .     .     .     .    1T    1T|     2     1      A    INF
+ F[V]     0|     .     .     .     .     .     .     .     .|     3     1      E    INF
+ G[V]     2|     .     .    1C     .     .     .    1C     .|     3     0      E    INF
+
+=== BFS (PFS)
+class GraphMatrix<char,int>[11532468]*(8, 11):
+    8    11| S[V]  A[V]  B[V]  C[V]  D[V]  E[V]  F[V]  G[V] 
+   11    11|    0     1     3     2     1     1     2     1 | dTime fTime Parent Weight
+-----------+------------------------------------------------+----------------------------
+ S[V]     3|     .    1T     .    1T    1T     .     .     .|    -1    -1      ^      0
+ A[V]     2|     .     .     .    1U     .    1T     .     .|    -1    -1      S      1
+ B[V]     0|     .     .     .     .     .     .     .     .|    -1    -1      C      2
+ C[V]     1|     .     .    1T     .     .     .     .     .|    -1    -1      S      1
+ D[V]     1|     .     .    1U     .     .     .     .     .|    -1    -1      S      1
+ E[V]     2|     .     .     .     .     .     .    1T    1T|    -1    -1      A      2
+ F[V]     0|     .     .     .     .     .     .     .     .|    -1    -1      E      3
+ G[V]     2|     .     .    1U     .     .     .    1U     .|    -1    -1      E      3
+
+=== DFS
+class GraphMatrix<char,int>[11532468]*(8, 11):
+    8    11| S[V]  A[V]  B[V]  C[V]  D[V]  E[V] 

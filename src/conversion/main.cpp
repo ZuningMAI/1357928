@@ -1,0 +1,24 @@
+
+
+#include "convert.h"
+
+/******************************************************************************************
+ * 进制转换
+ ******************************************************************************************/
+int main() {
+   srand((unsigned int)time(NULL)); //随机种子
+   //srand( 31415926 ); //固定种子（假种子，调试用）
+   unsigned long long n = 0;
+   for ( int i = 0; i < 4; i++ ) {
+      n <<= 16;
+      n |= (rand() & 0x1) << 15 | rand();
+   }
+   int base = 2 + rand() % 14; //目标进制：2 ~ 16
+   Stack<char> S; //用栈记录转换得到的各数位
+   ( 0 < n ) ? convert( S, n, base ) : S.push('0'); //进制转换
+   printf( "\n\t%20llu_(10) = ", n );
+   while ( !S.empty() ) printf ( "%c", ( S.pop() ) ); //逆序输出栈内数位，即正确结果
+   printf( "_(%d)\a\n", base );
+   system("pause");
+   return 0;
+}

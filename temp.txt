@@ -1,0 +1,21 @@
+显示反汇编代码
+-exec disassemble /m main
+-exec disassemble /m
+
+显示寄存器的值
+-exec info registers
+
+
+cmd.exe /d /c "call ""D:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\Tools\VsDevCmd.bat"" && cl /O2 /EHsc /std:c++17 /W4 /Isrc. /Fe:build\vector.exe /Fo:build\ src\vector\*.cpp  src\UniPrint\print_basic.cpp"
+
+cmd.exe /d /c "call ""D:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\Tools\VsDevCmd.bat"" && cl /O2 /EHsc /std:c++17 /W4 /Isrc.  -DDSA_STACK_VECTOR /Fe:build\binTree.exe /Fo:build\ src\binTree\*.cpp  src\UniPrint\print_basic.cpp"
+
+cmd.exe /d /c "call ""D:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\Tools\VsDevCmd.bat"" && cl /O2 /EHsc /std:c++17 /W4 /Isrc  /Fe:build\lcs.exe /Fo:build\ src\lcs\*.cpp"
+       
+先序：a,b,c,d,e,d
+中序:  b,a,d,e,c,f
+
+cmd.exe /d /c "call ""D:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\Tools\VsDevCmd.bat"" && cl /O2 /EHsc /std:c++17 /W4 /Isrc.  -DDSA_STACK_VECTOR /Fe:build\rpn.exe /Fo:build\ src\rpn\*.cpp  src\UniPrint\print_basic.cpp src\factorial/fac.cpp"
+
+
+cmd.exe /d /c "call ""D:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\Tools\VsDevCmd.bat"" && cl /Zi /Od /EHsc /std:c++17 /W4 /I -DDSA_STACK_LIST /Fed:bulid\rpn.exe .\rpn\*.cpp .\factorial\fac_iterative.cpp .\UniPrint\print_basic.cpp" 

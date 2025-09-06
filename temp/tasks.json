@@ -1,0 +1,1061 @@
+{
+    "version": "2.0.0",
+    "windows": {
+        "options": {
+            "shell": {
+                "executable": "cmd.exe",
+                "args": [
+                    "/d",
+                    "/c",
+                    "call \"D:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\Common7\\Tools\\VsDevCmd.bat\" && if not exist build mkdir build &&"
+                ]
+            }
+        }
+    },
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "build sum Debug",
+            "command": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "-std=c++23",
+                "-Wall",
+                "-Wextra",
+                "-fpermissive",
+                "-I${workspaceFolder}/src",
+                "-o",
+                "${workspaceFolder}\\bulid\\Debug.Sum\\Sum.exe",
+                "./random/shuffle.cpp",
+                "./reverse/reverse-iterative-1.cpp",
+                "./UniPrint/print_int_array.cpp",
+                "./sum/main.cpp",
+                "./sum/sum0.cpp",
+                "./sum/sum1.cpp",
+                "./sum/sum2.cpp"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/src"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "编译器: D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe"
+        },
+        {
+            "type": "cppbuild",
+            "label": "build sum Release",
+            "command": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-O2",
+                "-std=c++23",
+                "-Wall",
+                "-Wextra",
+                "-fpermissive",
+                "-I${workspaceFolder}/src",
+                "-o",
+                "${workspaceFolder}\\bulid\\Release.Sum\\Sum.exe",
+                "./random/shuffle.cpp",
+                "./reverse/reverse-iterative-1.cpp",
+                "./UniPrint/print_int_array.cpp",
+                "./sum/main.cpp",
+                "./sum/sum0.cpp",
+                "./sum/sum1.cpp",
+                "./sum/sum2.cpp"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/src"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build",
+            "detail": "编译器: D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe"
+        },
+        {
+            "type": "cppbuild",
+            "label": "build factorial Debug",
+            "command": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "-std=c++23",
+                "-Wall",
+                "-Wextra",
+                "-fpermissive",
+                "-I${workspaceFolder}/src",
+                "-o",
+                "${workspaceFolder}\\bulid\\Debug.Factorial\\Factorial.exe",
+                "./factorial/main.cpp",
+                "./factorial/fac.cpp"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/src"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "编译器: D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe"
+        },
+        {
+            "type": "cppbuild",
+            "label": "build factorial Release",
+            "command": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-O2",
+                "-std=c++23",
+                "-Wall",
+                "-Wextra",
+                "-fpermissive",
+                "-I${workspaceFolder}/src",
+                "-o",
+                "${workspaceFolder}\\bulid\\Release.Factorial\\Factorial.exe",
+                "./factorial/main.cpp",
+                "./factorial/fac.cpp"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/src"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build",
+            "detail": "编译器: D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe"
+        },
+        {
+            "type": "cppbuild",
+            "label": "build lcs Debug",
+            "command": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "-std=c++23",
+                "-Wall",
+                "-Wextra",
+                "-fpermissive",
+                "-I${workspaceFolder}/src",
+                "-o",
+                "${workspaceFolder}\\bulid\\Debug.Lcs\\Lcs.exe",
+                "./lcs/main.cpp",
+                "./lcs/lcs.cpp"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/src"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "编译器: D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe"
+        },
+        {
+            "type": "cppbuild",
+            "label": "build lcs Release",
+            "command": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-O2",
+                "-std=c++23",
+                "-Wall",
+                "-Wextra",
+                "-fpermissive",
+                "-I${workspaceFolder}/src",
+                "-o",
+                "${workspaceFolder}\\bulid\\Release.Lcs\\Lcs.exe",
+                "./lcs/main.cpp",
+                "./lcs/lcs.cpp"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/src"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build",
+            "detail": "编译器: D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe"
+        },
+        {
+            "type": "cppbuild",
+            "label": "build shiftK Debug",
+            "command": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "-std=c++23",
+                "-Wall",
+                "-Wextra",
+                "-fpermissive",
+                "-I${workspaceFolder}/src",
+                "-o",
+                "${workspaceFolder}\\bulid\\Debug.ShiftK\\ShiftK.exe",
+                "./reverse/reverse-iterative-1.cpp",
+                "./UniPrint/print_int_array.cpp",
+                "./shiftK/main.cpp",
+                "./shiftK/shift.cpp"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/src"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "编译器: D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe"
+        },
+        {
+            "type": "cppbuild",
+            "label": "build shiftK Release",
+            "command": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-O2",
+                "-std=c++23",
+                "-Wall",
+                "-Wextra",
+                "-fpermissive",
+                "-I${workspaceFolder}/src",
+                "-o",
+                "${workspaceFolder}\\bulid\\Release.ShiftK\\ShiftK.exe",
+                "./reverse/reverse-iterative-1.cpp",
+                "./UniPrint/print_int_array.cpp",
+                "./shiftK/main.cpp",
+                "./shiftK/shift.cpp"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/src"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build",
+            "detail": "编译器: D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe"
+        },
+        {
+            "type": "cppbuild",
+            "label": "build power Debug",
+            "command": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "-std=c++23",
+                "-Wall",
+                "-Wextra",
+                "-fpermissive",
+                "-I${workspaceFolder}/src",
+                "-o",
+                "${workspaceFolder}\\bulid\\Debug.power\\power.exe",
+                "./power/main.cpp",
+                "./power/Power1.cpp",
+                "./power/Power0.cpp",
+                "./power/Power2-0-I.cpp",
+                "./power/Power2-0-R.cpp",
+                "./power/Power2-1-I.cpp",
+                "./power/Power2-1-R.cpp"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/src"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "编译器: D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe"
+        },
+        {
+            "type": "cppbuild",
+            "label": "build power Release",
+            "command": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-O2",
+                "-std=c++23",
+                "-Wall",
+                "-Wextra",
+                "-fpermissive",
+                "-I${workspaceFolder}/src",
+                "-o",
+                "${workspaceFolder}\\bulid\\Release.power\\power.exe",
+                "./power/main.cpp",
+                "./power/Power1.cpp",
+                "./power/Power0.cpp",
+                "./power/Power2-0-I.cpp",
+                "./power/Power2-0-R.cpp",
+                "./power/Power2-1-I.cpp",
+                "./power/Power2-1-R.cpp"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/src"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build",
+            "detail": "编译器: D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe"
+        },
+        {
+            "type": "cppbuild",
+            "label": "build bubblesort Debug",
+            "command": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "-std=c++23",
+                "-Wall",
+                "-Wextra",
+                "-fpermissive",
+                "-I${workspaceFolder}/src",
+                "-o",
+                "${workspaceFolder}\\bulid\\Debug.bubblesort\\bubblesort.exe",
+                "./random/shuffle.cpp",
+                "./UniPrint/print_int_array.cpp",
+                "./bubblesort/main.cpp",
+                "./bubblesort/bubble.cpp"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/src"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "编译器: D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe"
+        },
+        {
+            "type": "cppbuild",
+            "label": "build bubblesort Release",
+            "command": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-O2",
+                "-std=c++23",
+                "-Wall",
+                "-Wextra",
+                "-fpermissive",
+                "-I${workspaceFolder}/src",
+                "-o",
+                "${workspaceFolder}\\bulid\\Release.bubblesort\\bubblesort.exe",
+                "./random/shuffle.cpp",
+                "./UniPrint/print_int_array.cpp",
+                "./bubblesort/main.cpp",
+                "./bubblesort/bubble.cpp"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/src"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build",
+            "detail": "编译器: D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe"
+        },
+        {
+            "type": "cppbuild",
+            "label": "build fibonacci Debug",
+            "command": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "-std=c++23",
+                "-Wall",
+                "-Wextra",
+                "-fpermissive",
+                "-I${workspaceFolder}/src",
+                "-o",
+                "${workspaceFolder}\\bulid\\Debug.fibonacci\\fibonacci.exe",
+                "./fibonacci/main.cpp",
+                "./fibonacci/Fib.cpp"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/src"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "编译器: D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe"
+        },
+        {
+            "type": "cppbuild",
+            "label": "build fibonacci Release",
+            "command": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-O2",
+                "-std=c++23",
+                "-Wall",
+                "-Wextra",
+                "-fpermissive",
+                "-I${workspaceFolder}/src",
+                "-o",
+                "${workspaceFolder}\\bulid\\Release.fibonacci\\fibonacci.exe",
+                "./fibonacci/main.cpp",
+                "./fibonacci/Fib.cpp"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/src"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build",
+            "detail": "编译器: D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe"
+        },
+        {
+            "type": "cppbuild",
+            "label": "build vector Debug",
+            "command": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "-std=c++23",
+                "-Wall",
+                "-Wextra",
+                "-fpermissive",
+                "-I${workspaceFolder}/src",
+                "-o",
+                "${workspaceFolder}\\bulid\\Debug.vector\\vector.exe",
+                "./vector/main.cpp",
+                "./UniPrint/print_basic.cpp"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/src"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "编译器: D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe"
+        },
+        {
+            "type": "cppbuild",
+            "label": "build vector Release",
+            "command": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-O2",
+                "-std=c++23",
+                "-Wall",
+                "-Wextra",
+                "-fpermissive",
+                "-I${workspaceFolder}/src",
+                "-o",
+                "${workspaceFolder}\\bulid\\Release.vector\\vector.exe",
+                "./vector/main.cpp",
+                "./UniPrint/print_basic.cpp"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/src"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build",
+            "detail": "编译器: D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe"
+        },
+        {
+            "type": "shell",
+            "label": "build vector MSVC",
+            "command": "cl.exe",
+            "args": [
+                "/Zi",
+                "/Od",
+                "/EHsc",
+                "/std:c++17",
+                "/W4",
+                "/Isrc",
+                "/Fed:build\\vector.exe",
+                "src\\vector\\main.cpp",
+                "src\\UniPrint\\print_basic.cpp"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$msCompile"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "编译器: cl.exe"
+        },
+        {
+            "type": "cppbuild",
+            "label": "build selection Debug",
+            "command": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "-std=c++23",
+                "-Wall",
+                "-Wextra",
+                "-fpermissive",
+                "-I${workspaceFolder}/src",
+                "-o",
+                "${workspaceFolder}\\bulid\\Debug.selection\\selection.exe",
+                "./selection/main.cpp",
+                "./UniPrint/print_basic.cpp"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/src"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "编译器: D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe"
+        },
+        {
+            "type": "cppbuild",
+            "label": "build selection Release",
+            "command": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-O2",
+                "-std=c++23",
+                "-Wall",
+                "-Wextra",
+                "-fpermissive",
+                "-I${workspaceFolder}/src",
+                "-o",
+                "${workspaceFolder}\\bulid\\Release.selection\\selection.exe",
+                "./selection/main.cpp",
+                "./UniPrint/print_basic.cpp"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/src"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build",
+            "detail": "编译器: D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe"
+        },
+        {
+            "type": "cppbuild",
+            "label": "build list Debug",
+            "command": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "-std=c++23",
+                "-Wall",
+                "-Wextra",
+                "-fpermissive",
+                "-I${workspaceFolder}/src",
+                "-o",
+                "${workspaceFolder}\\bulid\\Debug.list\\list.exe",
+                "./list/main.cpp",
+                "./UniPrint/print_basic.cpp"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/src"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "编译器: D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe"
+        },
+        {
+            "type": "cppbuild",
+            "label": "build list Release",
+            "command": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-O2",
+                "-std=c++23",
+                "-Wall",
+                "-Wextra",
+                "-fpermissive",
+                "-I${workspaceFolder}/src",
+                "-o",
+                "${workspaceFolder}\\bulid\\Release.list\\list.exe",
+                "./list/main.cpp",
+                "./UniPrint/print_basic.cpp"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/src"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build",
+            "detail": "编译器: D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe"
+        },
+        {
+            "type": "cppbuild",
+            "label": "build stack_vector Debug",
+            "command": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "-std=c++23",
+                "-Wall",
+                "-Wextra",
+                "-fpermissive",
+                "-I${workspaceFolder}/src",
+                "-DDSA_STACK_VECTOR",
+                "-o",
+                "${workspaceFolder}\\bulid\\Debug.stack_vector\\stack_vector.exe",
+                "./stack/main.cpp",
+                "./UniPrint/print_basic.cpp"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/src"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "编译器: D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe"
+        },
+        {
+            "type": "cppbuild",
+            "label": "build stack_vector Release",
+            "command": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-O2",
+                "-std=c++23",
+                "-Wall",
+                "-Wextra",
+                "-fpermissive",
+                "-I${workspaceFolder}/src",
+                "-DDSA_STACK_VECTOR",
+                "-o",
+                "${workspaceFolder}\\bulid\\Release.stack_vector\\stack_vector.exe",
+                "./stack/main.cpp",
+                "./UniPrint/print_basic.cpp"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/src"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build",
+            "detail": "编译器: D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe"
+        },
+        {
+            "type": "cppbuild",
+            "label": "build stack_list Debug",
+            "command": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "-std=c++23",
+                "-Wall",
+                "-Wextra",
+                "-fpermissive",
+                "-I${workspaceFolder}/src",
+                "-DDSA_STACK_LIST",
+                "-o",
+                "${workspaceFolder}\\bulid\\Debug.stack_list\\stack_list.exe",
+                "./stack/main.cpp",
+                "./UniPrint/print_basic.cpp"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/src"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "编译器: D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe"
+        },
+        {
+            "type": "cppbuild",
+            "label": "build stack_list Release",
+            "command": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-O2",
+                "-std=c++23",
+                "-Wall",
+                "-Wextra",
+                "-fpermissive",
+                "-I${workspaceFolder}/src",
+                "-DDSA_STACK_LIST",
+                "-o",
+                "${workspaceFolder}\\bulid\\Release.stack_list\\stack_list.exe",
+                "./stack/main.cpp",
+                "./UniPrint/print_basic.cpp"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/src"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build",
+            "detail": "编译器: D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe"
+        },
+        {
+            "type": "cppbuild",
+            "label": "build conversion Debug",
+            "command": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "-std=c++23",
+                "-Wall",
+                "-Wextra",
+                "-fpermissive",
+                "-I${workspaceFolder}/src",
+                "-o",
+                "${workspaceFolder}\\bulid\\Debug.conversion\\conversion.exe",
+                "./conversion/*.cpp",
+                "./UniPrint/print_basic.cpp"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/src"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "编译器: D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe"
+        },
+        {
+            "type": "cppbuild",
+            "label": "build nest_stack Debug",
+            "command": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "-std=c++23",
+                "-Wall",
+                "-Wextra",
+                "-fpermissive",
+                "-I${workspaceFolder}/src",
+                "-o",
+                "${workspaceFolder}\\bulid\\Debug.nest_stack\\nest_stack.exe",
+                "./nest_stack/*.cpp",
+                "./UniPrint/print_basic.cpp"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/src"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "编译器: D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe"
+        },
+        {
+            "type": "cppbuild",
+            "label": "build nest_recursive Debug",
+            "command": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "-std=c++23",
+                "-Wall",
+                "-Wextra",
+                "-fpermissive",
+                "-I${workspaceFolder}/src",
+                "-o",
+                "${workspaceFolder}\\bulid\\Debug.nest_recursive\\nest_recursive.exe",
+                "./nest_recursive/nest.cpp",
+                "./nest_stack/display.cpp",
+                "./nest_stack/main.cpp",
+                "./UniPrint/print_basic.cpp"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/src"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "编译器: D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe"
+        },
+        {
+            "type": "cppbuild",
+            "label": "build rpn Debug",
+            "command": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "-std=c++23",
+                "-Wall",
+                "-Wextra",
+                "-fpermissive",
+                "-I${workspaceFolder}/src",
+                "-o",
+                "${workspaceFolder}\\bulid\\Debug.rpn\\rpn.exe",
+                "./rpn/*.cpp",
+                "./factorial/fac.cpp",
+                "./UniPrint/print_basic.cpp"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/src"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "编译器: D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe"
+        },
+        {
+            "type": "cppbuild",
+            "label": "build queue Debug",
+            "command": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "-std=c++23",
+                "-Wall",
+                "-Wextra",
+                "-fpermissive",
+                "-I${workspaceFolder}/src",
+                "-o",
+                "${workspaceFolder}\\bulid\\Debug.queue\\queue.exe",
+                "./queue/main.cpp",
+                "./UniPrint/print_basic.cpp"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/src"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "编译器: D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe"
+        },
+        {
+            "type": "cppbuild",
+            "label": "build queen_brute_force_1 Debug",
+            "command": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "-std=c++23",
+                "-Wall",
+                "-Wextra",
+                "-fpermissive",
+                "-I${workspaceFolder}/src",
+                "-o",
+                "${workspaceFolder}\\bulid\\Debug.queen_brute_force_1\\queen_brute_force_1.exe",
+                "./queen_brute_force_1/*.cpp",
+                "./UniPrint/print_basic.cpp"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/src"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "编译器: D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe"
+        },
+        {
+            "type": "cppbuild",
+            "label": "build queen_brute_force_2 Debug",
+            "command": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "-std=c++23",
+                "-Wall",
+                "-Wextra",
+                "-fpermissive",
+                "-I${workspaceFolder}/src",
+                "-o",
+                "${workspaceFolder}\\bulid\\Debug.queen_brute_force_2\\queen_brute_force_2.exe",
+                "./queen_brute_force_2/*.cpp",
+                "./queen_brute_force_1/collision.cpp",
+                "./queen_brute_force_1/displaySolution.cpp",
+                "./UniPrint/print_basic.cpp"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/src"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "编译器: D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe"
+        },
+        {
+            "type": "cppbuild",
+            "label": "build queen_recursive Debug",
+            "command": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "-std=c++23",
+                "-Wall",
+                "-Wextra",
+                "-fpermissive",
+                "-I${workspaceFolder}/src",
+                "-o",
+                "${workspaceFolder}\\bulid\\Debug.queen_recursive\\queen_recursive.exe",
+                "./queen_recursive/*.cpp",
+                "./queen_brute_force_1/collision.cpp",
+                "./queen_brute_force_1/displaySolution.cpp",
+                "./UniPrint/print_basic.cpp"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/src"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "编译器: D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe"
+        },
+        {
+            "type": "cppbuild",
+            "label": "build queen_stack Debug",
+            "command": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "-std=c++23",
+                "-Wall",
+                "-Wextra",
+                "-fpermissive",
+                "-I${workspaceFolder}/src",
+                "-o",
+                "${workspaceFolder}\\bulid\\Debug.queen_stack\\queen_stack.exe",
+                "./queen_stack/*.cpp",
+                "./UniPrint/print_basic.cpp"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/src"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "编译器: D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe"
+        },
+        {
+            "type": "cppbuild",
+            "label": "build laby Debug",
+            "command": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "-std=c++23",
+                "-Wall",
+                "-Wextra",
+                "-fpermissive",
+                "-I${workspaceFolder}/src",
+                "-o",
+                "${workspaceFolder}\\bulid\\Debug.laby\\laby.exe",
+                "./laby/*.cpp"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/src"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "编译器: D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe"
+        },
+        {
+            "type": "cppbuild",
+            "label": "build binTree Debug",
+            "command": "D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "-std=c++23",
+                "-Wall",
+                "-Wextra",
+                "-fpermissive",
+                "-I${workspaceFolder}/src",
+                "-o",
+                "${workspaceFolder}\\bulid\\Debug.binTree\\binTree.exe",
+                "./binTree/*.cpp",
+                "./UniPrint/print_basic.cpp"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/src"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "编译器: D:\\ProgramData\\mingw64_14\\mingw64\\bin\\g++.exe"
+        }
+    ]
+}

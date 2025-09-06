@@ -1,0 +1,326 @@
+####################################################
+Text:        a   c   a   b   a   a   b   a   a   b   c   a   c   a   a   b   c
+Pattern:     a   b   a   a   b   c
+
+-- Step  1: --
+   0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16
+   a   c   a   b   a   a   b   a   a   b   c   a   c   a   a   b   c
+   |
+   a   b   a   a   b   c
+
+-- Step  2: --
+   0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16
+   a   c   a   b   a   a   b   a   a   b   c   a   c   a   a   b   c
+       |
+   a   b   a   a   b   c
+
+-- Step  3: --
+   0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16
+   a   c   a   b   a   a   b   a   a   b   c   a   c   a   a   b   c
+       |
+       a   b   a   a   b   c
+
+-- Step  4: --
+   0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16
+   a   c   a   b   a   a   b   a   a   b   c   a   c   a   a   b   c
+           |
+           a   b   a   a   b   c
+
+-- Step  5: --
+   0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16
+   a   c   a   b   a   a   b   a   a   b   c   a   c   a   a   b   c
+               |
+           a   b   a   a   b   c
+
+-- Step  6: --
+   0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16
+   a   c   a   b   a   a   b   a   a   b   c   a   c   a   a   b   c
+                   |
+           a   b   a   a   b   c
+
+-- Step  7: --
+   0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16
+   a   c   a   b   a   a   b   a   a   b   c   a   c   a   a   b   c
+                       |
+           a   b   a   a   b   c
+
+-- Step  8: --
+   0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16
+   a   c   a   b   a   a   b   a   a   b   c   a   c   a   a   b   c
+                           |
+           a   b   a   a   b   c
+
+-- Step  9: --
+   0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16
+   a   c   a   b   a   a   b   a   a   b   c   a   c   a   a   b   c
+                               |
+           a   b   a   a   b   c
+
+-- Step 10: --
+   0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16
+   a   c   a   b   a   a   b   a   a   b   c   a   c   a   a   b   c
+               |
+               a   b   a   a   b   c
+
+-- Step 11: --
+   0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16
+   a   c   a   b   a   a   b   a   a   b   c   a   c   a   a   b   c
+                   |
+                   a   b   a   a   b   c
+
+-- Step 12: --
+   0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16
+   a   c   a   b   a   a   b   a   a   b   c   a   c   a   a   b   c
+                       |
+                   a   b   a   a   b   c
+
+-- Step 13: --
+   0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16
+   a   c   a   b   a   a   b   a   a   b   c   a   c   a   a   b   c
+                       |
+                       a   b   a   a   b   c
+
+-- Step 14: --
+   0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16
+   a   c   a   b   a   a   b   a   a   b   c   a   c   a   a   b   c
+                           |
+                       a   b   a   a   b   c
+
+-- Step 15: --
+   0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16
+   a   c   a   b   a   a   b   a   a   b   c   a   c   a   a   b   c
+                               |
+                       a   b   a   a   b   c
+
+-- Step 16: --
+   0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16
+   a   c   a   b   a   a   b   a   a   b   c   a   c   a   a   b   c
+                                   |
+                       a   b   a   a   b   c
+
+-- Step 17: --
+   0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16
+   a   c   a   b   a   a   b   a   a   b   c   a   c   a   a   b   c
+                                       |
+                       a   b   a   a   b   c
+
+-- Step 18: --
+   0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16
+   a   c   a   b   a   a   b   a   a   b   c   a   c   a   a   b   c
+                                           |
+                       a   b   a   a   b   c
+Matching found at #5
+####################################################
+Text:        n   o   w       i   s       t   h   e       t   i   m   e       f   o   r       a   l   l       g   o   o   d       p   e   o   p   l   e       t   o       c   o   m   e
+Pattern:     p   e   o   p   l   e
+
+-- Step 19: --
+   0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42
+   n   o   w       i   s       t   h   e       t   i   m   e       f   o   r       a   l   l       g   o   o   d       p   e   o   p   l   e       t   o       c   o   m   e
+   |
+   p   e   o   p   l   e
+
+-- Step 20: --
+   0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42
+   n   o   w       i   s       t   h   e       t   i   m   e       f   o   r       a   l   l       g   o   o   d       p   e   o   p   l   e       t   o       c   o   m   e
+       |
+       p   e   o   p   l   e
+
+-- Step 21: --
+   0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42
+   n   o   w       i   s       t   h   e       t   i   m   e       f   o   r       a   l   l       g   o   o   d       p   e   o   p   l   e       t   o       c   o   m   e
+           |
+           p   e   o   p   l   e
+
+-- Step 22: --
+   0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42
+   n   o   w       i   s       t   h   e       t   i   m   e       f   o   r       a   l   l       g   o   o   d       p   e   o   p   l   e       t   o       c   o   m   e
+               |
+               p   e   o   p   l   e
+
+-- Step 23: --
+   0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42
+   n   o   w       i   s       t   h   e       t   i   m   e       f   o   r       a   l   l       g   o   o   d       p   e   o   p   l   e       t   o       c   o   m   e
+                   |
+                   p   e   o   p   l   e
+
+-- Step 24: --
+   0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42
+   n   o   w       i   s       t   h   e       t   i   m   e       f   o   r       a   l   l       g   o   o   d       p   e   o   p   l   e       t   o       c   o   m   e
+                       |
+                       p   e   o   p   l   e
+
+-- Step 25: --
+   0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42
+   n   o   w       i   s       t   h   e       t   i   m   e       f   o   r       a   l   l       g   o   o   d       p   e   o   p   l   e       t   o       c   o   m   e
+                           |
+                           p   e   o   p   l   e
+
+-- Step 26: --
+   0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42
+   n   o   w       i   s       t   h   e       t   i   m   e       f   o   r       a   l   l       g   o   o   d       p   e   o   p   l   e       t   o       c   o   m   e
+                               |
+                               p   e   o   p   l   e
+
+-- Step 27: --
+   0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42
+   n   o   w       i   s       t   h   e       t   i   m   e       f   o   r       a   l   l       g   o   o   d       p   e   o   p   l   e       t   o       c   o   m   e
+                                   |
+                                   p   e   o   p   l   e
+
+-- Step 28: --
+   0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42
+   n   o   w       i   s       t   h   e       t   i   m   e       f   o   r       a   l   l       g   o   o   d       p   e   o   p   l   e       t   o       c   o   m   e
+                                       |
+                                       p   e   o   p   l   e
+
+-- Step 29: --
+   0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42
+   n   o   w       i   s       t   h   e       t   i   m   e       f   o   r       a   l   l       g   o   o   d       p   e   o   p   l   e       t   o       c   o   m   e
+                                           |
+                                           p   e   o   p   l   e
+
+-- Step 30: --
+   0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42
+   n   o   w       i   s       t   h   e       t   i   m   e       f   o   r       a   l   l       g   o   o   d       p   e   o   p   l   e       t   o       c   o   m   e
+                                               |
+                                               p   e   o   p   l   e
+
+-- Step 31: --
+   0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42
+   n   o   w       i   s       t   h   e       t   i   m   e       f   o   r       a   l   l       g   o   o   d       p   e   o   p   l   e       t   o       c   o   m   e
+                                                   |
+                                                   p   e   o   p   l   e
+
+-- Step 32: --
+   0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42
+   n   o   w       i   s       t   h   e       t   i   m   e       f   o   r       a   l   l       g   o   o   d       p   e   o   p   l   e       t   o       c   o   m   e
+                                                       |
+                                                       p   e   o   p   l   e
+
+-- Step 33: --
+   0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42
+   n   o   w       i   s       t   h   e       t   i   m   e       f   o   r       a   l   l       g   o   o   d       p   e   o   p   l   e       t   o       c   o   m   e
+                                                           |
+                                                           p   e   o   p   l   e
+
+-- Step 34: --
+   0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42
+   n   o   w       i   s       t   h   e       t   i   m   e       f   o   r       a   l   l       g   o   o   d       p   e   o   p   l   e       t   o       c   o   m   e
+                                                               |
+                                                               p   e   o   p   l   e
+
+-- Step 35: --
+   0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42
+   n   o   w       i   s       t   h   e       t   i   m   e       f   o   r       a   l   l       g   o   o   d       p   e   o   p   l   e       t   o       c   o   m   e
+                                                                   |
+                                                                   p   e   o   p   l   e
+
+-- Step 36: --
+   0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42
+   n   o   w       i   s       t   h   e       t   i   m   e       f   o   r       a   l   l       g   o   o   d       p   e   o   p   l   e       t   o       c   o   m   e
+                                                                       |
+                                                                       p   e   o   p   l   e
+
+-- Step 37: --
+   0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42
+   n   o   w       i   s       t   h   e       t   i   m   e       f   o   r       a   l   l       g   o   o   d       p   e   o   p   l   e       t   o       c   o   m   e
+                                                                           |
+                                                                           p   e   o   p   l   e
+
+-- Step 38: --
+   0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42
+   n   o   w       i   s       t   h   e       t   i   m   e       f   o   r       a   l   l       g   o   o   d       p   e   o   p   l   e       t   o       c   o   m   e
+                                                                               |
+                                                                               p   e   o   p   l   e
+
+-- Step 39: --
+   0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42
+   n   o   w       i   s       t   h   e       t   i   m   e       f   o   r       a   l   l       g   o   o   d       p   e   o   p   l   e       t   o       c   o   m   e
+                                                                                   |
+                                                                                   p   e   o   p   l   e
+
+-- Step 40: --
+   0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42
+   n   o   w       i   s       t   h   e       t   i   m   e       f   o   r       a   l   l       g   o   o   d       p   e   o   p   l   e       t   o       c   o   m   e
+                                                                                       |
+                                                                                       p   e   o   p   l   e
+
+-- Step 41: --
+   0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42
+   n   o   w       i   s       t   h   e       t   i   m   e       f   o   r       a   l   l       g   o   o   d       p   e   o   p   l   e       t   o       c   o   m   e
+                                                                                           |
+                                                                                           p   e   o   p   l   e
+
+-- Step 42: --
+   0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42
+   n   o   w       i   s       t   h   e       t   i   m   e       f   o   r       a   l   l       g   o   o   d       p   e   o   p   l   e       t   o       c   o   m   e
+                                                                                               |
+                                                                                               p   e   o   p   l   e
+
+-- Step 43: --
+   0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42
+   n   o   w       i   s       t   h   e       t   i   m   e       f   o   r       a   l   l       g   o   o   d       p   e   o   p   l   e       t   o       c   o   m   e
+                                                                                                   |
+                                                                                                   p   e   o   p   l   e
+
+-- Step 44: --
+   0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42
+   n   o   w       i   s       t   h   e       t   i   m   e       f   o   r       a   l   l       g   o   o   d       p   e   o   p   l   e       t   o       c   o   m   e
+                                                                                                       |
+                                                                                                       p   e   o   p   l   e
+
+-- Step 45: --
+   0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42
+   n   o   w       i   s       t   h   e       t   i   m   e       f   o   r       a   l   l       g   o   o   d       p   e   o   p   l   e       t   o       c   o   m   e
+                                                                                                           |
+                                                                                                           p   e   o   p   l   e
+
+-- Step 46: --
+   0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42
+   n   o   w       i   s       t   h   e       t   i   m   e       f   o   r       a   l   l       g   o   o   d       p   e   o   p   l   e       t   o       c   o   m   e
+                                                                                                               |
+                                                                                                               p   e   o   p   l   e
+
+-- Step 47: --
+   0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42
+   n   o   w       i   s       t   h   e       t   i   m   e       f   o   r       a   l   l       g   o   o   d       p   e   o   p   l   e       t   o       c   o   m   e
+                                                                                                                   |
+                                                                                                                   p   e   o   p   l   e
+
+-- Step 48: --
+   0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42
+   n   o   w       i   s       t   h   e       t   i   m   e       f   o   r       a   l   l       g   o   o   d       p   e   o   p   l   e       t   o       c   o   m   e
+                                                                                                                       |
+                                                                                                                       p   e   o   p   l   e
+
+-- Step 49: --
+   0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42
+   n   o   w       i   s       t   h   e       t   i   m   e       f   o   r       a   l   l       g   o   o   d       p   e   o   p   l   e       t   o       c   o   m   e
+                                                                                                                           |
+                                                                                                                       p   e   o   p   l   e
+
+-- Step 50: --
+   0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42
+   n   o   w       i   s       t   h   e       t   i   m   e       f   o   r       a   l   l       g   o   o   d       p   e   o   p   l   e       t   o       c   o   m   e
+                                                                                                                               |
+                                                                                                                       p   e   o   p   l   e
+
+-- Step 51: --
+   0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42
+   n   o   w       i   s       t   h   e       t   i   m   e       f   o   r       a   l   l       g   o   o   d       p   e   o   p   l   e       t   o       c   o   m   e
+                                                                                                                                   |
+                                                                                                                       p   e   o   p   l   e
+
+-- Step 52: --
+   0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42
+   n   o   w       i   s       t   h   e       t   i   m   e       f   o   r       a   l   l       g   o   o   d       p   e   o   p   l   e       t   o       c   o   m   e
+                                                                                                                                       |
+                                                                                                                       p   e   o   p   l   e
+
+-- Step 53: --
+   0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32  33  34  35  36  37  38  39  40  41  42
+   n   o   w       i   s       t   h   e       t   i   m   e       f   o   r       a   l   l       g   o   o   d       p   e   o   p   l   e       t   o       c   o   m   e
+                                                                                                                                           |
+                                                                                                                       p   e   o   p   l   e
+Matching found at #29
